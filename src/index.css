@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navigation media querries */
+
+@media screen and (max-width:480px){
+    .nav{
+        display: none;
+    }
+}
+@media screen and (min-width:481px) and (max-width:1080px){
+    .nav{
+        display: none;
+    }
+}
